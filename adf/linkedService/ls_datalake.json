@@ -1,0 +1,11 @@
+{
+	"name": "ls_datalake",
+	"properties": {
+		"description": "Connexion sécurisée au Data Lake du projet 5CLOU",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://st5cloumassamba.dfs.core.windows.net/"
+		}
+	}
+}
