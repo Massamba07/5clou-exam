@@ -43,7 +43,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_raw_file",
+						"referenceName": "ds_eco2mix_api",
 						"type": "DatasetReference"
 					}
 				]
