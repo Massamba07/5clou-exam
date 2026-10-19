@@ -43,8 +43,14 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_eco2mix_api",
-						"type": "DatasetReference"
+						"referenceName": "ds_raw_file",
+						"type": "DatasetReference",
+						"parameters": {
+							"fileName": {
+								"value": "@concat('eco2mix_', formatDateTime(utcNow(), 'yyyyMMddTHHmmss'), 'Z.json')",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
