@@ -1,0 +1,19 @@
+{
+	"name": "ds_raw_file",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "@dataset().fileName",
+				"folderPath": "raw/eco2mix",
+				"fileSystem": "data"
+			}
+		}
+	}
+}
