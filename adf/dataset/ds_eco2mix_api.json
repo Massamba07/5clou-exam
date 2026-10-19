@@ -1,0 +1,17 @@
+{
+	"name": "ds_eco2mix_api",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_odre_http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "api/explore/v2.1/catalog/datasets/eco2mix-national-tr/records?order_by=date_heure%20desc&limit=100"
+			}
+		}
+	}
+}
