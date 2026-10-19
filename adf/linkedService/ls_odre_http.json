@@ -1,0 +1,13 @@
+{
+	"name": "ls_odre_http",
+	"properties": {
+		"description": "Connexion HTTP à l'API RTE éCO2mix",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://odre.opendatasoft.com/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
